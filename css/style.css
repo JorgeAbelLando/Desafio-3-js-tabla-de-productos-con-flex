@@ -1,0 +1,36 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:red;
+    text-align: center;
+}
+
+/*.descendente{
+    flex-direction: row-reverse;
+}*/
+.elementosContenido{
+    border: 1px solid blue;
+    margin: 20px;
+    padding: 20px;
+    background-color: aquamarine;
+    width:325px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.elementosContenido>h3{
+    color:black;
+}
+.elementosContenido>span{
+    font-weight: bold;
+}
+.elementosContenido>table>thead>th{
+    font-weight: red;
+}
+.conteiner{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+}
